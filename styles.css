@@ -1,0 +1,17 @@
+body{
+ background-color: aqua;  
+}
+a{
+    text-align:left;
+    font-size: medium;
+}
+h1{
+    font-family:cursive;
+    text-align: right;
+}
+img{
+    width: 10%;
+    height: auto;
+    border-radius: 50%;
+    
+}

@@ -1,0 +1,24 @@
+body{
+    background-color: aqua;
+    font-family: cursive;
+
+}
+div.container{
+    background-color: goldenrod;
+    color: white;
+    padding: 10px;
+    width: 700px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 15px;
+    justify-content: center;
+}
+img{
+    width: 10%;
+    height: auto;
+    border-radius: 50%;
+}
+p{
+    text-align-last: right;
+    font-size: 20px;
+}
