@@ -57,37 +57,17 @@ input[type=text] {
   transition: width 0.4s ease-in-out;
 }
 
-* {
-  box-sizing: border-box;
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+  width: 100%;
 }
 
-form.example input[type=text] {
-  padding: 10px;
-  font-size: 17px;
-  border: 1px solid grey;
-  float: left;
-  width: 80%;
-  background: #f1f1f1;
+input{
+  padding: 10px 15px;
+  margin: 8px 0px;
+  border-radius: 10px;
 }
-
-form.example button {
-  float: left;
-  width: 20%;
-  padding: 10px;
-  background: #2196F3;
-  color: white;
-  font-size: 17px;
-  border: 1px solid grey;
-  border-left: none;
-  cursor: pointer;
-}
-
-form.example button:hover {
-  background: #0b7dda;
-}
-
-form.example::after {
-  content: "";
-  clear: both;
-  display: table;
+div.container{
+  display: flex;
+  align-items: center;
 }
