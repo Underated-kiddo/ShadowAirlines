@@ -4,40 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Service.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="Service.js"></script>
     <title>Service</title>
 </head>
-<body>
-    <img src="/images/itachi.png"></img> 
+<body> 
     <header>
         <p>Shadow airlines</p>
-        <div class="nav" align="center">
-            <div class="container">
-            <a href="home.html">Home</a>
+        <div class="navbar">
+            <a  class="active" href="home.html"><i class="fa fa-fw fa-home"></i>Home</a>
             <a href="Service.html">Services</a>
-            <a href="About.html">About us</a>
-            <a href="Contact.html">Contact us</a>
-            <a href="Staff.html">Staff</a>
-            </div>
+            <a href="About.html"><i class="fa fa-fw fa-user"></i>About us</a>
+            <a href="Contact.html"><i class="fa fa-fw fa-envelope"></i>Contact us</a>
+            <a href="Staff.html"><i class="fa fa-fw fa-user"></i>Staff</a>
         </div>      
     </header> 
     <h2>Our Services</h2> 
-    <p>
+ 
+    <div class="row">
+        <div class="column" onclick="openTab('b1');" style="background:goldenrod;">Flights booking</div>
+        <div class="column" onclick="openTab('b2');" style="background:blue;">Private  Services</div>
+        <div class="column" onclick="openTab('b3');" style="background:peru;">Deliveries</div>
+      </div>
+      
+      <!-- The expanding grid (hidden by default) -->
+      <div id="b1" class="containerTab" style="display:none;background:goldenrod">
+        <!-- closing button -->
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+        <h2>flights booking</h2>
+        <p>Yeeeeeeeeeeeeeeeeeeeeeeeeear</p>
+      </div>
+      
+      <div id="b2" class="containerTab" style="display:none;background:blue">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+        <h2>Private services</h2>
+        <p>Niiiiiiiiiiiiiiiiiiiiiiice</p>
+      </div>
+      
+      <div id="b3" class="containerTab" style="display:none;background:peru">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+        <h2>Deliveries</h2>
+        <p>Whhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhat</p>
+      </div>
 
-        <ul>
-       <li> Ordinary flights</li>
-       <li> Premium flights </li>
-       <li> Deliveries  </li>
-        </ul>
-    </p>
 <marquee>Disclaimer!!! Be cautious with your luggage and kids.Incase of 
      lost items go to gate A and ask for the lost and found section.
       </marquee>
-      <div class="card">
-        <img src="img_avatar.png" alt="Avatar" style="width:100%">
-        <div class="container">
-          <h4><b>John Doe</b></h4>
-          <p>Architect & Engineer</p>
-        </div>
-      </div>
+     
 </body>
 </html>
