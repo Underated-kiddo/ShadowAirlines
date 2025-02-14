@@ -106,7 +106,6 @@ form.example::after {
   display: none;
 }
 
-/* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -122,13 +121,11 @@ form.example::after {
   user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
@@ -178,4 +175,31 @@ form.example::after {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+.header {
+  overflow: hidden;
+  background-color: goldenrod;
+  padding: 0px 5px;
+}
+.header img.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+.header-right {
+  float: right;
+}
+.header img {
+  float: left;
+  padding: 0%;
+  border-radius: 4px;
+  height: 10%;
+  width:auto;
+}
+.imgcontainer {
+  padding: 0px;
+  text-align: center;
+  margin: 5px 0 22px 0;
+  height:auto;
+  width: 150px;;
 }

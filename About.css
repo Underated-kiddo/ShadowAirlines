@@ -6,3 +6,44 @@ body{
 marquee{
     font-family:chiller;
 }
+.header {
+    overflow: hidden;
+    background-color: #9eb10a;
+    padding: 0px 5px;
+}
+.header img.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+.header-right {
+    float: right;
+}
+.header img {
+    float: left;
+    padding: 0%;
+    border-radius: 4px;
+    height: 10%;
+    width:auto;
+}
+.imgcontainer {
+    padding: 0px;
+    text-align: center;
+    margin: 5px 0 22px 0;
+    height:auto;
+    width: 150px;;
+}
+img.logo {
+    width: 40%;
+    border-radius: 50%;
+}
+p{
+    font-weight: bold;
+}
+
+img{
+    height:250px;
+    width:auto;
+    float: left;
+}
+
+
