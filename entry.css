@@ -1,0 +1,35 @@
+body {
+    font-family: cursive;
+    background-color: aqua;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: bisque;
+    color: black;
+    height: 60px;
+    border-radius: 8px;
+}
+
+header img {
+    width: auto;
+    height: 70px;
+    flex: left;
+    border-radius: 50px;
+}
+h2{
+    font-size:medium;
+    text-align: center;
+
+}
+p{
+    text-align: center;
+}
+.container img{
+    height:400px;
+    width:auto;
+    border-radius: 10px;
+    margin: 20px;
+}
