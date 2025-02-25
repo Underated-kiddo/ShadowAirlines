@@ -1,9 +1,9 @@
 body{
-  background-color: blanchedalmond;
+  background-color:aqua;
 }
 .header {
     overflow: hidden;
-    background-color: #9eb10a;
+    background-color: gold;
     padding: 20px 10px;
   }
   
@@ -56,7 +56,8 @@ body{
     margin: auto;
     text-align: center;
     font-family: cursive;
-    background-color: aqua;
+    background-color: lightblue;
+    border-radius: 10px;
   }
   
   .title {

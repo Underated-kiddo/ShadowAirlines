@@ -43,7 +43,7 @@ section {
     background-size: cover;
     color: black;
     text-align: center;
-    padding: 150px 20px;
+    padding: 50px 20px;
 }
 
 .card-container {
@@ -68,17 +68,20 @@ section {
 }
 
 
-.card img {
-    width: 30%;
+.Card img{
+    height: 150px;
+    width:auto;
     border-radius: 10px;
 }
 
 .Gallery-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 10px;
 }
-
+.Gallery-grid img{
+    height:250px;
+}
 footer {
     background-color: beige;
     color: black;

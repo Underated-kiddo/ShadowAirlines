@@ -67,9 +67,9 @@ section {
     border-radius: 8px; 
 }
 
-
-.card img {
-    width: 30%;
+.Card img{
+    height: 150px;
+    width:auto;
     border-radius: 10px;
 }
 
