@@ -2,6 +2,8 @@ body{
     text-align: center;
     font-family:cursive;
     background-color: aqua;
+    font-size:16px;
+
 }
 header {
     display: flex;
@@ -25,10 +27,12 @@ header img {
     background-color:goldenrod ;
     border-radius:10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-size:16px;
 }
 form label{
     margin-top:10px;
     color:black;
+    font-size:16px;
 }
 form input{
     width:50%;
@@ -41,17 +45,19 @@ form input{
 form button{
     width:30%;
     padding:10px;
-    background-color: blue;
+    background-color: rgb(117, 117, 245);
     color:black;
     font-size:16px;
     border:none;
     border-radius:5px;
     cursor:pointer;
     align-self: center;
+    
 }
 form button:hover{
     background-color: bisque;
 }
 ul{
     text-align: left;
+    font-size:16px;
 }
