@@ -1,14 +1,14 @@
 body{
     text-align: center;
     font-family:cursive;
-    background-color: aqua;
-}
+    background-color: cornflowerblue;
+    font-size:16px;
 
+}
 header {
     display: flex;
-    justify-content: space-between;
     padding: 20px;
-    background-color: bisque;
+    background-color: peru;
     color: black;
     height: 60px;
     border-radius: 8px;
@@ -21,16 +21,18 @@ header img {
     border-radius: 50px;
 }
 .form-container{
-    max-width:400px;
+    max-width:500px;
     margin: 40px  auto;
     padding:30px;
-    background-color:goldenrod ;
+    background-color:peru ;
     border-radius:10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-size:16px;
 }
 form label{
     margin-top:10px;
     color:black;
+    font-size:16px;
 }
 form input{
     width:50%;
@@ -40,17 +42,22 @@ form input{
     border-radius:5px;
     font-size:16px;
 }
-form button{
+button{
     width:30%;
     padding:10px;
-    background-color: rgba(141, 141, 252, 0.721);
+    background-color: cornflowerblue;
     color:black;
     font-size:16px;
     border:none;
     border-radius:5px;
     cursor:pointer;
     align-self: center;
+    
 }
 form button:hover{
     background-color: bisque;
+}
+ul{
+    text-align: left;
+    font-size:16px;
 }

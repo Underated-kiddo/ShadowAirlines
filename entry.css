@@ -1,13 +1,13 @@
 body {
     font-family: cursive;
-    background-color: aqua;
+    background-color: cornflowerblue;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: bisque;
+    background-color: peru;
     color: black;
     height: 60px;
     border-radius: 8px;

@@ -1,6 +1,6 @@
 body{
     font-family: cursive;
-    background-color: goldenrod ;
+    background-color: cornflowerblue;
     text-align: center;
 }
 marquee{
@@ -8,8 +8,9 @@ marquee{
 }
 .header {
     overflow: hidden;
-    background-color: #9eb10a;
+    background-color:peru;
     padding: 0px 5px;
+    border-radius: 10px;
 }
 .header img.logo {
     font-size: 25px;

@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Flights.css">
-    <script src="Flights.js"></script>
     <title>Bookings</title>
 </head>
 <body>
@@ -13,6 +12,7 @@
         <div class="logo">
             <img src="images/airlnes.jpg" alt="airlines">
         </div>
+        <h3>Shadow Airlines</h3>
     </header>
 <h1>Bookings</h>
     <p>
@@ -35,13 +35,12 @@
             <label for="Number">Phone number : </label>
             <input type="text" id="Number" name="Number" required>
             <br><br>
+            <label for="Destination">Destination</label>
+            <input type="text" id="Destination" name="Destination" placeholder="Bikini bottom" required>
             <!-- now i need a  check box/list of selecting type of flight -->
-                <div id="Book" class="button">
-                <div class="button">
-                    <button type="submit" id="Book">
-                    <a  href="Payment.html">Book</a> 
-                </button>
-            </div> 
+            <button>
+                <a  href="Payment.html">Book</a>
+            </button> 
             </div>
         </form>
 </body>

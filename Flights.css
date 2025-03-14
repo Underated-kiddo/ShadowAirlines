@@ -1,14 +1,14 @@
 body{
     text-align: center;
     font-family:cursive;
-    background-color: aqua;
+    background-color: cornflowerblue;
     font-size:16px;
 
 }
 header {
     display: flex;
     padding: 20px;
-    background-color: bisque;
+    background-color: peru;
     color: black;
     height: 60px;
     border-radius: 8px;
@@ -24,7 +24,7 @@ header img {
     max-width:500px;
     margin: 40px  auto;
     padding:30px;
-    background-color:goldenrod ;
+    background-color:peru ;
     border-radius:10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     font-size:16px;
@@ -42,10 +42,10 @@ form input{
     border-radius:5px;
     font-size:16px;
 }
-form button{
+button{
     width:30%;
     padding:10px;
-    background-color: rgb(117, 117, 245);
+    background-color: cornflowerblue;
     color:black;
     font-size:16px;
     border:none;

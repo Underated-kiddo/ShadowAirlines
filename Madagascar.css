@@ -1,13 +1,13 @@
 body {
     font-family: cursive;
-    background-color: aqua;
+    background-color: cornflowerblue;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: bisque;
+    background-color: peru;
     color: black;
     height: 60px;
     border-radius: 8px;
@@ -50,7 +50,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; 
-    background: lightskyblue;
+    background: cornflowerblue;
     padding: 20px;
     width: 100%; 
     margin: 0 auto;
@@ -79,11 +79,12 @@ section {
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
 }
+
 .Gallery-grid img{
-    height: 150px;
+    height: 200px;
 }
 footer {
-    background-color: beige;
+    background-color: peru;
     color: black;
     text-align: center;
     padding: 20px;

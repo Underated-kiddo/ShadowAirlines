@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Flights.css">
-    <title>Bookings</title>
+    <title>Private Services</title>
 </head>
 <body>
 
@@ -12,8 +12,11 @@
         <div class="logo">
             <img src="images/airlnes.jpg" alt="airlines">
         </div>
+        <h3>Shadow Airlines</h3>
     </header>
-
+<h1>Private Services</h1>
+<p>Private flights and shippments are done.</p>
+<P>Costs will be added</P>
     <div class="form-container">
         <h1>Flight booking form</h1>
         <form id="Flightbooking">
@@ -26,11 +29,13 @@
             <label for="Number">Phone number : </label>
             <input type="text" id="Number" name="Number" required>
             <br><br>
-            <div id="Book" class="button">
-                <div class="button">
-                    <button type="submit" id="Book">
-                    <a  href="Payment.html">Book</a> 
-                </button>
+            <label for="Destination">Destination</label>
+            <input type="text" id="Destination" name="Destination" placeholder="Bikini bottom" required>
+            <!-- now i need a  check box/list of selecting type of flight -->
+                        <button>
+                            <a  href="Payment.html">Book</a>
+                        </button> 
+            </div>
         </form>
 </body>
 </html>

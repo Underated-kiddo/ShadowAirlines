@@ -1,13 +1,13 @@
 body {
     font-family: cursive;
-    background-color: aqua;
+    background-color: cornflowerblue;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: bisque;
+    background-color: peru;
     color: black;
     height: 60px;
     border-radius: 8px;
@@ -43,14 +43,14 @@ section {
     background-size: cover;
     color: black;
     text-align: center;
-    padding: 150px 20px;
+    padding: 50px 20px;
 }
 
 .card-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; 
-    background: lightskyblue;
+    background: cornflowerblue;
     padding: 20px;
     width: 100%; 
     margin: 0 auto;
@@ -67,6 +67,7 @@ section {
     border-radius: 8px; 
 }
 
+
 .Card img{
     height: 150px;
     width:auto;
@@ -75,12 +76,15 @@ section {
 
 .Gallery-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 10px;
 }
 
+.Gallery-grid img{
+    height: 150px;
+}
 footer {
-    background-color: beige;
+    background-color: peru;
     color: black;
     text-align: center;
     padding: 20px;

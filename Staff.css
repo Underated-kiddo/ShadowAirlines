@@ -1,12 +1,12 @@
 body{
-    background-color: bisque;
+    background-color: cornflowerblue;
     font-family: chiller;
 }
 h1{
     text-align: center;
 }
 .navbar{
-    background-color: goldenrod;
+    background-color: peru;
     color: white;
     padding: 10px;
     text-align: center;
@@ -37,8 +37,8 @@ p{
 form{
     margin: 150px;
     padding: 20px;
-    background-color: goldenrod;
-    color: purple;
+    background-color: peru;
+    color: black;
     border-radius: 10px;
     justify-content: center;
     text-align: center;
@@ -58,7 +58,7 @@ footer{
     box-sizing: border-box;
   }
   button {
-    background-color: #04AA6D;
+    background-color: skyblue;
     color: black;
     padding: 14px 20px;
     margin: 8px 0;
